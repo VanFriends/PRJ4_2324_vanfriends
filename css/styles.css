@@ -11009,7 +11009,7 @@ body {
   padding: 0.9rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
-  color: #000;
+  color: black;
   outline: none;
   background-color: transparent;
 }
@@ -11038,10 +11038,10 @@ body {
     color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:active {
-    color: #000;
+    color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #000;
+    background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
