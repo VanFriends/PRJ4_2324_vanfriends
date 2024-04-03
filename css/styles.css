@@ -11094,8 +11094,8 @@ body {
 
     .masthead h1, .masthead .h1 {
         font-family: "forma-djr-deck", sans-serif;
-        font-weight: 500;
-        font-style: bold;
+font-weight: 800;
+font-style: normal;
         color: #FFFFFF;
         -webkit-background-clip: text;
         background-clip: text;
@@ -11473,4 +11473,5 @@ font-style: normal;
 font-weight: 800;
 font-style: normal;
 	color: #ea8232;
+	font-size: 60pt;
 }
