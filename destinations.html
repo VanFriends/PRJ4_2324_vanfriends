@@ -29,12 +29,14 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+<body id="page-top" style="background-color: #e4d5bc;"> 
+
+
         <!-- Navigation-->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container px-4 px-lg-5">
         <a class="navbar-brand" href="index.html">
-            <img src="assets/img/secondary-logo.png" alt="logo" width="50" height="50">
+            <img src="assets/img/vanfriends-logo.png" alt="logo" width="100" height="50">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
@@ -42,28 +44,32 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="index.html">Home</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle vanfriends-paragraph-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="destinations.html">All Destinations</a></li>
-                        <li><a class="dropdown-item" href="italy.html">Italy</a></li>
-                        <li><a class="dropdown-item" href="portugal.html">Portugal</a></li>
-                        <li><a class="dropdown-item" href="the-alps.html">The Alps</a></li>
-                        <li><a class="dropdown-item" href="benelux.html">Benelux</a></li>
-                    </ul>
+                <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="index.html" style="color: #000000;">Home</a></li>
+                <li class="nav-item">
+                    <a class="nav-link vanfriends-paragraph-dark d-lg-none" href="destinations.html" style="color: #000000;">Destinations</a>
+                    <div class="dropdown d-lg-inline-block d-none">
+                        <a class="nav-link dropdown-toggle vanfriends-paragraph-dark" href="#" style="color: #000000;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item vanfriends-paragraph-dark" href="destinations.html" style="color: #000000;">All Destinations</a></li>
+                            <li><a class="dropdown-item vanfriends-paragraph-dark" href="italy.html" style="color: #000000;">Italy</a></li>
+                            <li><a class="dropdown-item vanfriends-paragraph-dark" href="portugal.html" style="color: #000000;">Portugal</a></li>
+                            <li><a class="dropdown-item vanfriends-paragraph-dark" href="the-alps.html" style="color: #000000;">The Alps</a></li>
+                            <li><a class="dropdown-item vanfriends-paragraph-dark" href="benelux.html" style="color: #000000;">Benelux</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="about-us.html">About Us</a></li>
-                <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="coorporate.html">Coorporate</a></li>
+                <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="about-us.html" style="color: #000000;">About Us</a></li>
+                <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="coorporate.html" style="color: #000000;">Coorporate</a></li>
             </ul>
         </div>
     </div>
 </nav>
 		
-  <header class="masthead" style="position: relative; background-image: url('assets/img/map-page.jpg'); background-size: cover; background-position: center; height: 100vh;">
+  <header class="masthead" style="position: relative; background-image: url('assets/img/destinations.jpg'); background-size: cover; background-position: center; height: 100vh;">
     <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
         <div class="d-flex justify-content-center">
             <div class="text-center">
+			<img src="assets/img/black-logo.png" class="img-fluid mb-2" alt="Your Image" style="max-width: 70px;">
                 <h1 class="text-black">Best Van Routes</h1>
                 <h2 class="mx-auto mt-2 mb-5 text-black">Explore now:&nbsp;</h2>
             </div>
@@ -73,8 +79,7 @@
 
 
 
-		
-			<main class="container my-4">
+		 <div class="section-container">
       <div class="row g-3 justify-content-evenly">
         <!-- Card #1 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
@@ -132,7 +137,10 @@
           </div>
         </div>
 	 </div> 
-		           <!-- A footer with socials -->
+ </main>
+</div> 
+    
+							  <!-- A footer with socials -->
     <footer class="shadow-lg mt-auto py-4 bg-body">
       <div class="social d-flex justify-content-center">
         <ul class="list-unstyled d-flex align-items-center opacity-75">

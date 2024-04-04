@@ -2856,7 +2856,7 @@ font-style: normal;
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #64a19d;
+  --bs-btn-bg: #1f464f;
   --bs-btn-border-color: #64a19d;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #558985;
@@ -11132,8 +11132,12 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #1f4646 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+background: linear-gradient(to bottom, #1f4646 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
+.about-section2 {
+  padding-top: 10rem;
+}
+
 .about-section p {
   margin-bottom: 5rem;
 }
@@ -11167,7 +11171,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-	font-family: "interstate-compressed", sans-serif;
+	font-family: "acumin-pro", sans-serif; 
 font-weight: 500;
 font-style: normal;
 }
@@ -11175,11 +11179,10 @@ font-style: normal;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: "interstate-compressed", sans-serif;
-font-weight: 500;
+  font-family: "acumin-pro", sans-serif;
+font-weight: 200;
 font-style: normal;
-  font-size: 80%;
-  text-transform: uppercase;
+  font-size: 80%
   letter-spacing: 0.15rem;
   border: 0;
 }
@@ -11479,4 +11482,35 @@ font-style: normal;
 	font-size: 60pt;
 }
 
+.video-container {
+      position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto; 
+  z-index: -100;
+  background-size: cover;
+    }
+
+    .video-container video {
+          position: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+    }
+
+.section-container {
+    margin-bottom: 50px; /* Adjust the value as needed */
+}
 
