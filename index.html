@@ -22,35 +22,37 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
 <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav"> 
-            <div class="container px-2 px-lg-2"> 
-                <a class="navbar-brand" href="#page-top">
-					<img src="assets/img/secondary-logo.png" alt="logo" widht="50" height="50"> </a> 
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-bs-target="#navbarResponsive">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="index.html" >Home</a></li>
-                           <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle vanfriends-paragraph-dark" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Destinations</a>
+	
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/img/secondary-logo.png" alt="logo" width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle vanfriends-paragraph-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinations</a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<li><a class="dropdown-item" href="destinations.html">All Destinations</a></li>
+                        <li><a class="dropdown-item" href="destinations.html">All Destinations</a></li>
                         <li><a class="dropdown-item" href="italy.html">Italy</a></li>
                         <li><a class="dropdown-item" href="portugal.html">Portugal</a></li>
                         <li><a class="dropdown-item" href="the-alps.html">The Alps</a></li>
                         <li><a class="dropdown-item" href="benelux.html">Benelux</a></li>
                     </ul>
                 </li>
-						<li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="about-us.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="coorporate.html" >Coorporate</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-       <header class="masthead" style="position: relative;">
+                <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="about-us.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link vanfriends-paragraph-dark" href="coorporate.html">Coorporate</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+      <header class="masthead" style="position: relative;">
     <!-- Replace the content of the header with a video -->
     <video autoplay loop muted playsinline class="masthead-video" style="width: 100%; height: auto; z-index: -1; position: absolute; top: 0; left: 0;">
         <source src="assets/video/home-bckgn.mp4" type="video/mp4">
@@ -59,15 +61,17 @@
     </video>
 
     <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-        <div class="d-flex justify-content-center">
-            <div class="text-center" style="position: relative; z-index: 1;">
-                <h1 class="vanfriends-header-orange">VanFriends</h1>
-                <h2 class="text-white-50 mx-auto mt-2 mb-5">The dream nomadic lifestyle!&nbsp;&nbsp;</h2>
-                <a class="btn btn-primary vanfriends-paragraph" href="destinations.html">Start THE JOURNEY!&nbsp;</a>
-            </div>
+        <div class="row">
+            <div class="col text-center">
+<h1 class="vanfriends-header-orange">VanFriends</h1>
+   <h2 class="mx-auto mt-2 mb-5 text-white-50">The dream nomadic lifestyle!</h2>
+           
+ <a class="btn btn-primary vanfriends-paragraph" href="destinations.html">Start THE JOURNEY!</a>
+           </div>
         </div>
     </div>
 </header>
+
 
         <!-- About-->
 <section class="about-section text-center" id="about">
@@ -86,7 +90,7 @@
 	    <body>
     <section class="review">
       <h5>&nbsp;</h5>
-      <h1 class="vanfriends-header-orange">&nbsp; &nbsp;What people say about us:</h1>
+      <h2>&nbsp; &nbsp;What people say about us:</h2>
       <p>&nbsp;</p>
 <div class="testimonials">
     <div class="testimony">
@@ -138,6 +142,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
+   <img src="assets/img/white-logo.png" class="img-fluid mb-2" alt="Your Image" style="max-width: 50px;">
                         <h2 class="text-white mb-5">Subscribe to receive van updates!</h2>
                         <!-- * * * * * * * * * * * * * * *-->
                         <!-- * * SB Forms Contact Form * *-->
@@ -161,9 +166,6 @@
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3 mt-2 text-white">
                                     <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
                             <!-- Submit error message-->

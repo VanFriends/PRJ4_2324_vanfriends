@@ -1955,7 +1955,7 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width : 1250px ){
   .table-responsive-xl {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -2325,6 +2325,8 @@ textarea.form-control-lg {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
+	padding: 10px 20px; 
+        font-size: 1rem;
 }
 .btn-check[disabled] + .btn, .btn-check:disabled + .btn {
   pointer-events: none;
@@ -5613,7 +5615,7 @@ font-style: normal;
     overflow-y: auto;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width : 1250px ){
   .modal-fullscreen-xl-down {
     width: 100vw;
     max-width: none;
@@ -6456,7 +6458,7 @@ font-style: normal;
   }
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width : 1250px ){
   .offcanvas-xl {
     position: fixed;
     bottom: 0;
@@ -6472,12 +6474,12 @@ font-style: normal;
     transition: transform 0.3s ease-in-out;
   }
 }
-@media (max-width: 1199.98px) and (prefers-reduced-motion: reduce) {
+@media (max-width : 1250px ) and ( prefers-reduced-motion : reduce ){
   .offcanvas-xl {
     transition: none;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width : 1250px ){
   .offcanvas-xl.offcanvas-start {
     top: 0;
     left: 0;
@@ -6486,7 +6488,7 @@ font-style: normal;
     transform: translateX(-100%);
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width : 1250px ){
   .offcanvas-xl.offcanvas-end {
     top: 0;
     right: 0;
@@ -6495,7 +6497,7 @@ font-style: normal;
     transform: translateX(100%);
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width : 1250px ){
   .offcanvas-xl.offcanvas-top {
     top: 0;
     right: 0;
@@ -6506,7 +6508,7 @@ font-style: normal;
     transform: translateY(-100%);
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width : 1250px ){
   .offcanvas-xl.offcanvas-bottom {
     right: 0;
     left: 0;
@@ -6516,12 +6518,12 @@ font-style: normal;
     transform: translateY(100%);
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width : 1250px ){
   .offcanvas-xl.showing, .offcanvas-xl.show:not(.hiding) {
     transform: none;
   }
 }
-@media (max-width: 1199.98px) {
+@media (max-width : 1250px ){
   .offcanvas-xl.showing, .offcanvas-xl.hiding, .offcanvas-xl.show {
     visibility: visible;
   }
@@ -11094,16 +11096,17 @@ body {
 
     .masthead h1, .masthead .h1 {
         font-family: "forma-djr-deck", sans-serif;
-font-weight: 800;
-font-style: normal;
+        font-weight: 500;
+        font-style: bold;
         color: #FFFFFF;
         -webkit-background-clip: text;
         background-clip: text;
+		font-size: 2.5rem;
     }
 
     .masthead h2, .masthead .h2 {
-        max-width: 20rem;
-        font-size: 1rem;
+        font-size: 1.5rem; 
+        margin-bottom: 2rem; 
     }
 
     @media (min-width: 768px) {
@@ -11159,7 +11162,7 @@ font-style: normal;
 
 .signup-section {
   padding: 10rem 0;
-  background: url("../assets/img/mikell-darling-x6yBJhwphTw-unsplash.jpg");
+  background: url("../assets/img/sign-up.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11287,7 +11290,7 @@ ul{
 
 
 .our-webcoderskull{
-  background: url("../assets/img/manuel-meurisse-flWsg878m_I-unsplash.jpg")no-repeat center top / cover;
+  background: url("../assets/img/our-team.jpg")no-repeat center top / cover;
   
 }
 .our-webcoderskull .cnt-block{ 
@@ -11364,7 +11367,7 @@ function myFunction() {
   }
 }
 
-<!--map--!>
+map--!>
  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
      crossorigin=""/> 
@@ -11475,3 +11478,5 @@ font-style: normal;
 	color: #ea8232;
 	font-size: 60pt;
 }
+
+
