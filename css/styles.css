@@ -146,10 +146,14 @@ font-style: normal;
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
+	 font-family: "interstate-compressed", sans-serif;
+font-weight: 200;
+font-style: normal;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
     font-size: 1.75rem;
+	 
   }
 }
 
@@ -11512,5 +11516,11 @@ font-style: normal;
 
 .section-container {
     margin-bottom: 50px; /* Adjust the value as needed */
+}
+
+@media (max-width: 767px) {
+  #carouselExampleCaptions .carousel-item {
+    height: auto;
+  }
 }
 
